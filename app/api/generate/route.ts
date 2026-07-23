@@ -1,7 +1,6 @@
 import { google } from '@ai-sdk/google';
 import { streamText } from 'ai';
 
-// Set maximum execution duration to 30 seconds for serverless functions
 export const maxDuration = 30;
 
 export async function POST(req: Request) {
